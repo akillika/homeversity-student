@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "158814522980",
+    "firebase_url": "https://homeversity-attendance-manager-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "homeversity-attendance-manager",
+    "storage_bucket": "homeversity-attendance-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158814522980:android:c221808e69f38a46f5d971",
+        "android_client_info": {
+          "package_name": "in.teamdcs.homeversity_student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158814522980-hdug5obmschbq541a851rr68i4gq4ojq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.teamdcs.homeversity_student",
+            "certificate_hash": "bf9e1beab4904b12c1e1ed1df90edfc641098b71"
+          }
+        },
+        {
+          "client_id": "158814522980-0mcmhunj0dr3t3jjkui7a4otsrulpobk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD51hk2HiyTJ0alajRPwreIuO0_NVfBTl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158814522980-0mcmhunj0dr3t3jjkui7a4otsrulpobk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "158814522980-076jkditpmcjbusit0ujjtunfdci5eki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.teamdcs.homeversitystaff.homeversityStaff"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
