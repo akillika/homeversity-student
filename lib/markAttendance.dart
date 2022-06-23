@@ -67,7 +67,7 @@ class _MarkAttendanceState extends State<MarkAttendance> {
                       FirebaseFirestore.instance
                           .collection("attendanceList")
                           .doc(value.docs[0].data()["createdAt"])
-                          .set({
+                          .update({
                         "attendees": FieldValue.arrayUnion([
                           {
                             "registerNumber": 123004013,
@@ -76,7 +76,7 @@ class _MarkAttendanceState extends State<MarkAttendance> {
                           }
                         ])
                       }).then((value) {
-                        print("Marked");
+                      
                       });
                     } else {
                       FirebaseFirestore.instance
@@ -90,7 +90,13 @@ class _MarkAttendanceState extends State<MarkAttendance> {
                         "createdAt": DateTime.now().toString(),
                         "staff": value.docs[0].data()["staff"],
                         "id": Uuid().v1(),
-                        "attendees": FieldValue.arrayUnion([])
+                        "attendees": FieldValue.arrayUnion([
+                          {
+                            "registerNumber": 123004013,
+                            "name": "Akil S",
+                            "time": DateTime.now().toString()
+                          }
+                        ])
                       }).then((value) {
                         print("Created new attendance List");
                       });
